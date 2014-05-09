@@ -11,7 +11,7 @@
 @implementation AppDelegate
 
 @synthesize window;
-@synthesize Path001a;
+@synthesize Path001;
 
 
 - (BOOL)userNotificationCenter:(NSUserNotificationCenter *)center
@@ -53,12 +53,7 @@
     [menu addItem:[NSMenuItem separatorItem]]; // A thin grey line
     [menu addItemWithTitle:@"Quit" action:@selector(terminate:) keyEquivalent:@""];
     statusItem.menu = menu;
-    
 }
-
-
-
-
 
 
 
@@ -75,7 +70,7 @@
 }
 
 
-
+// Now Playing Track Info WIP
 - (void)TrackInfo2 {
      [NSArray arrayWithObjects:mocpswitch = @"-i", nil];
     [self NSTaskMonkey];

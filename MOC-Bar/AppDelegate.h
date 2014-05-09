@@ -25,16 +25,12 @@
 
 
 //Options:
-
 @property (assign) IBOutlet NSMenuItem *Desktop;
 
 
 
-@property (strong, nonatomic) IBOutlet NSTextField *Path001a;
-
-
 //Presets:
-@property (strong, nonatomic) IBOutlet NSTextField *Path001b;
+@property (strong, nonatomic) IBOutlet NSTextField *Path001;
 
 
 
