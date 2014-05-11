@@ -1,4 +1,4 @@
-MOC-Bar
+#MOC-Bar
 
 OSX GUI for MOC
 
