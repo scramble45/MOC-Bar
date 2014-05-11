@@ -17,11 +17,11 @@
 
 
 
-- (BOOL)userNotificationCenter:(NSUserNotificationCenter *)center
-     shouldPresentNotification:(NSUserNotification *)notification
-{
-    return YES;
-}
+//- (BOOL)userNotificationCenter:(NSUserNotificationCenter *)center
+//     shouldPresentNotification:(NSUserNotification *)notification
+//{
+//    return YES;
+//}
 
 
 - (void)awakeFromNib {
