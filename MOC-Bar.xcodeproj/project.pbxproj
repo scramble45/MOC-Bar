@@ -7,12 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-<<<<<<< HEAD
 		1B1E3CE5191FBC28006A7364 /* Growl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B1E3CE4191FBC28006A7364 /* Growl.framework */; };
 		1B1E3CE8191FBD5A006A7364 /* Growl.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1B1E3CE4191FBC28006A7364 /* Growl.framework */; };
 		1B1E3CEA191FBE8B006A7364 /* Growl Registration Ticket.growlRegDict in Resources */ = {isa = PBXBuildFile; fileRef = 1B1E3CE9191FBE8B006A7364 /* Growl Registration Ticket.growlRegDict */; };
-=======
->>>>>>> 4a5a65160483199c5e6d51ddcb9f364b13db17ff
 		1B7E75A0191874A800E1B53A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B7E759F191874A800E1B53A /* Cocoa.framework */; };
 		1B7E75AA191874A800E1B53A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B7E75A8191874A800E1B53A /* InfoPlist.strings */; };
 		1B7E75AC191874A800E1B53A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7E75AB191874A800E1B53A /* main.m */; };
@@ -38,7 +35,6 @@
 		};
 /* End PBXContainerItemProxy section */
 
-<<<<<<< HEAD
 /* Begin PBXCopyFilesBuildPhase section */
 		1B1E3CE7191FBD4E006A7364 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -55,9 +51,6 @@
 /* Begin PBXFileReference section */
 		1B1E3CE4191FBC28006A7364 /* Growl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Growl.framework; sourceTree = "<group>"; };
 		1B1E3CE9191FBE8B006A7364 /* Growl Registration Ticket.growlRegDict */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Growl Registration Ticket.growlRegDict"; sourceTree = "<group>"; };
-=======
-/* Begin PBXFileReference section */
->>>>>>> 4a5a65160483199c5e6d51ddcb9f364b13db17ff
 		1B7E759C191874A800E1B53A /* MOC-Bar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MOC-Bar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B7E759F191874A800E1B53A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		1B7E75A2191874A800E1B53A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -86,10 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-<<<<<<< HEAD
 				1B1E3CE5191FBC28006A7364 /* Growl.framework in Frameworks */,
-=======
->>>>>>> 4a5a65160483199c5e6d51ddcb9f364b13db17ff
 				1B7E75A0191874A800E1B53A /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -129,10 +119,7 @@
 		1B7E759E191874A800E1B53A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
 				1B1E3CE4191FBC28006A7364 /* Growl.framework */,
-=======
->>>>>>> 4a5a65160483199c5e6d51ddcb9f364b13db17ff
 				1B7E759F191874A800E1B53A /* Cocoa.framework */,
 				1B7E75C4191874A800E1B53A /* XCTest.framework */,
 				1B7E75A1191874A800E1B53A /* Other Frameworks */,
@@ -165,10 +152,7 @@
 		1B7E75A6191874A800E1B53A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
 				1B1E3CE9191FBE8B006A7364 /* Growl Registration Ticket.growlRegDict */,
-=======
->>>>>>> 4a5a65160483199c5e6d51ddcb9f364b13db17ff
 				1B7E75D919187BE100E1B53A /* .appicons */,
 				1B7E75A7191874A800E1B53A /* MOC-Bar-Info.plist */,
 				1B7E75A8191874A800E1B53A /* InfoPlist.strings */,
@@ -207,10 +191,7 @@
 				1B7E7598191874A800E1B53A /* Sources */,
 				1B7E7599191874A800E1B53A /* Frameworks */,
 				1B7E759A191874A800E1B53A /* Resources */,
-<<<<<<< HEAD
 				1B1E3CE7191FBD4E006A7364 /* CopyFiles */,
-=======
->>>>>>> 4a5a65160483199c5e6d51ddcb9f364b13db17ff
 			);
 			buildRules = (
 			);
@@ -283,10 +264,7 @@
 				1B7E75DC19187BF100E1B53A /* Icon.icns in Resources */,
 				1B7E75B0191874A800E1B53A /* Credits.rtf in Resources */,
 				1B7E75B9191874A800E1B53A /* MainMenu.xib in Resources */,
-<<<<<<< HEAD
 				1B1E3CEA191FBE8B006A7364 /* Growl Registration Ticket.growlRegDict in Resources */,
-=======
->>>>>>> 4a5a65160483199c5e6d51ddcb9f364b13db17ff
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,13 +417,10 @@
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = NO;
 				COMBINE_HIDPI_IMAGES = YES;
-<<<<<<< HEAD
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-=======
->>>>>>> 4a5a65160483199c5e6d51ddcb9f364b13db17ff
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MOC-Bar/MOC-Bar-Prefix.pch";
 				INFOPLIST_FILE = "MOC-Bar/MOC-Bar-Info.plist";
@@ -459,13 +434,10 @@
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = NO;
 				COMBINE_HIDPI_IMAGES = YES;
-<<<<<<< HEAD
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-=======
->>>>>>> 4a5a65160483199c5e6d51ddcb9f364b13db17ff
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MOC-Bar/MOC-Bar-Prefix.pch";
 				INFOPLIST_FILE = "MOC-Bar/MOC-Bar-Info.plist";

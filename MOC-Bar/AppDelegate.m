@@ -3,24 +3,18 @@
 //  MOC-Bar
 //
 //  Created by Rowan Hamilton on 5/5/14.
-<<<<<<< HEAD
 //  Copyright (c) 2014 Rowan Hamilton. All rights reserved.
-=======
 //  Copyright (c) 2014 r0r0. All rights reserved.
->>>>>>> 4a5a65160483199c5e6d51ddcb9f364b13db17ff
 //
 
 #import "AppDelegate.h"
 
 @implementation AppDelegate
 
-<<<<<<< HEAD
 //@synthesize window;
 //@synthesize Path001;
-=======
-@synthesize window;
-@synthesize Path001;
->>>>>>> 4a5a65160483199c5e6d51ddcb9f364b13db17ff
+
+
 
 
 - (BOOL)userNotificationCenter:(NSUserNotificationCenter *)center
@@ -41,22 +35,17 @@
     [statusItem setToolTip:@"MOC-Bar"];
     [statusItem setHighlightMode:YES];
     
-<<<<<<< HEAD
     /* Delete any existing MOC-Bar data from (ApplicationSupportDirectory).
-=======
     // Delete any existing MOC-Bar data from (ApplicationSupportDirectory).
->>>>>>> 4a5a65160483199c5e6d51ddcb9f364b13db17ff
     NSArray *upaths = NSSearchPathForDirectoriesInDomains(NSApplicationSupportDirectory,
                                                           NSUserDomainMask, YES);
     NSString *NSApplicationSupportDirectory = [upaths objectAtIndex:0];
     NSString *apppath = [NSApplicationSupportDirectory stringByAppendingPathComponent:@"MOC-Bar"];
     NSError *error;
     if(![[NSFileManager defaultManager] removeItemAtPath:apppath error:&error]) nil;
-<<<<<<< HEAD
      End of directory delete code.*/
-=======
     // End of directory delete code.
->>>>>>> 4a5a65160483199c5e6d51ddcb9f364b13db17ff
+
     
     NSLog(@"MOC-Bar has started.");
     
@@ -123,11 +112,7 @@
     [task setLaunchPath: @"/usr/local/bin/mocp"];
     
     NSArray *arguments;
-<<<<<<< HEAD
     arguments = [NSArray arrayWithObjects: @"-Q %artist - %song %ct : %tt", nil];
-=======
-    arguments = [NSArray arrayWithObjects: @"-i", nil];
->>>>>>> 4a5a65160483199c5e6d51ddcb9f364b13db17ff
     [task setArguments: arguments];
     
     NSPipe *pipe;
@@ -146,7 +131,7 @@
     string = [[NSString alloc] initWithData: data encoding: NSUTF8StringEncoding];
     NSLog (@"MOC File Loaded:\n%@", string);
     
-<<<<<<< HEAD
+
     // Display Track Now Playing:
     NSBundle *thisBundle = [NSBundle bundleForClass:[AppDelegate class]];
     NSString *growlPath = [[thisBundle privateFrameworksPath] stringByAppendingPathComponent:@"Growl.framework"];
@@ -164,18 +149,6 @@
 
 }
 
-
-=======
-    [string release];
-    [task release];
-    
-
-    
-    // Add growl here.
-    
-    
-    //menu system update
-
     
     //end of menu system update
     
@@ -184,11 +157,7 @@
     //[[NSRunLoop currentRunLoop] addTimer:timer forMode:NSRunLoopCommonModes];
     //end of loop for udpating.
     
-}
 
-
-
->>>>>>> 4a5a65160483199c5e6d51ddcb9f364b13db17ff
 - (void)dealloc {
     [statusImage release];
     [statusMenu release]; // added today
@@ -196,10 +165,7 @@
     [super dealloc];
 }
 
-<<<<<<< HEAD
-=======
-// Add Growl Support in Future
->>>>>>> 4a5a65160483199c5e6d51ddcb9f364b13db17ff
+
 // Display build information.
 //- (NSString *)bundleVersionNumber {
 //    return [[[NSBundle bundleWithIdentifier:\
