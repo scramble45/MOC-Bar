@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B1E3CE5191FBC28006A7364 /* Growl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B1E3CE4191FBC28006A7364 /* Growl.framework */; };
+		1B1E3CE8191FBD5A006A7364 /* Growl.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1B1E3CE4191FBC28006A7364 /* Growl.framework */; };
+		1B1E3CEA191FBE8B006A7364 /* Growl Registration Ticket.growlRegDict in Resources */ = {isa = PBXBuildFile; fileRef = 1B1E3CE9191FBE8B006A7364 /* Growl Registration Ticket.growlRegDict */; };
+		1B7E75A0191874A800E1B53A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B7E759F191874A800E1B53A /* Cocoa.framework */; };
+		1B7E75AA191874A800E1B53A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B7E75A8191874A800E1B53A /* InfoPlist.strings */; };
+		1B7E75AC191874A800E1B53A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7E75AB191874A800E1B53A /* main.m */; };
+		1B7E75B0191874A800E1B53A /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1B7E75AE191874A800E1B53A /* Credits.rtf */; };
+		1B7E75B9191874A800E1B53A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B7E75B7191874A800E1B53A /* MainMenu.xib */; };
+		1B7E75BE191874A800E1B53A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B7E75BD191874A800E1B53A /* Images.xcassets */; };
+		1B7E75C5191874A800E1B53A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B7E75C4191874A800E1B53A /* XCTest.framework */; };
+		1B7E75C6191874A800E1B53A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B7E759F191874A800E1B53A /* Cocoa.framework */; };
+		1B7E75CE191874A800E1B53A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B7E75CC191874A800E1B53A /* InfoPlist.strings */; };
+		1B7E75D0191874A800E1B53A /* MOC_BarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7E75CF191874A800E1B53A /* MOC_BarTests.m */; };
+		1B7E75DA19187BE100E1B53A /* .appicons in Resources */ = {isa = PBXBuildFile; fileRef = 1B7E75D919187BE100E1B53A /* .appicons */; };
+		1B7E75DC19187BF100E1B53A /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 1B7E75DB19187BF100E1B53A /* Icon.icns */; };
+		1BD7FD3D19187FA3007AA562 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7E75B2191874A800E1B53A /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B7E75C7191874A800E1B53A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B7E7594191874A700E1B53A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B7E759B191874A800E1B53A;
+			remoteInfo = "MOC-Bar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1B1E3CE7191FBD4E006A7364 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1B1E3CE8191FBD5A006A7364 /* Growl.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1B1E3CE4191FBC28006A7364 /* Growl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Growl.framework; sourceTree = "<group>"; };
+		1B1E3CE9191FBE8B006A7364 /* Growl Registration Ticket.growlRegDict */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Growl Registration Ticket.growlRegDict"; sourceTree = "<group>"; };
+		1B7E759C191874A800E1B53A /* MOC-Bar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MOC-Bar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B7E759F191874A800E1B53A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		1B7E75A2191874A800E1B53A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		1B7E75A3191874A800E1B53A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1B7E75A4191874A800E1B53A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1B7E75A7191874A800E1B53A /* MOC-Bar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MOC-Bar-Info.plist"; sourceTree = "<group>"; };
+		1B7E75A9191874A800E1B53A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1B7E75AB191874A800E1B53A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1B7E75AD191874A800E1B53A /* MOC-Bar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MOC-Bar-Prefix.pch"; sourceTree = "<group>"; };
+		1B7E75AF191874A800E1B53A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		1B7E75B1191874A800E1B53A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1B7E75B2191874A800E1B53A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1B7E75B8191874A800E1B53A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1B7E75BD191874A800E1B53A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1B7E75C3191874A800E1B53A /* MOC-BarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MOC-BarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B7E75C4191874A800E1B53A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1B7E75CB191874A800E1B53A /* MOC-BarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MOC-BarTests-Info.plist"; sourceTree = "<group>"; };
+		1B7E75CD191874A800E1B53A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1B7E75CF191874A800E1B53A /* MOC_BarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MOC_BarTests.m; sourceTree = "<group>"; };
+		1B7E75D919187BE100E1B53A /* .appicons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = .appicons; sourceTree = "<group>"; };
+		1B7E75DB19187BF100E1B53A /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B7E7599191874A800E1B53A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B1E3CE5191FBC28006A7364 /* Growl.framework in Frameworks */,
+				1B7E75A0191874A800E1B53A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B7E75C0191874A800E1B53A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B7E75C6191874A800E1B53A /* Cocoa.framework in Frameworks */,
+				1B7E75C5191874A800E1B53A /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B7E7593191874A700E1B53A = {
+			isa = PBXGroup;
+			children = (
+				1B7E75DB19187BF100E1B53A /* Icon.icns */,
+				1B7E75A5191874A800E1B53A /* MOC-Bar */,
+				1B7E75C9191874A800E1B53A /* MOC-BarTests */,
+				1B7E759E191874A800E1B53A /* Frameworks */,
+				1B7E759D191874A800E1B53A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B7E759D191874A800E1B53A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B7E759C191874A800E1B53A /* MOC-Bar.app */,
+				1B7E75C3191874A800E1B53A /* MOC-BarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B7E759E191874A800E1B53A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B1E3CE4191FBC28006A7364 /* Growl.framework */,
+				1B7E759F191874A800E1B53A /* Cocoa.framework */,
+				1B7E75C4191874A800E1B53A /* XCTest.framework */,
+				1B7E75A1191874A800E1B53A /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B7E75A1191874A800E1B53A /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B7E75A2191874A800E1B53A /* AppKit.framework */,
+				1B7E75A3191874A800E1B53A /* CoreData.framework */,
+				1B7E75A4191874A800E1B53A /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		1B7E75A5191874A800E1B53A /* MOC-Bar */ = {
+			isa = PBXGroup;
+			children = (
+				1B7E75B1191874A800E1B53A /* AppDelegate.h */,
+				1B7E75B2191874A800E1B53A /* AppDelegate.m */,
+				1B7E75B7191874A800E1B53A /* MainMenu.xib */,
+				1B7E75BD191874A800E1B53A /* Images.xcassets */,
+				1B7E75A6191874A800E1B53A /* Supporting Files */,
+			);
+			path = "MOC-Bar";
+			sourceTree = "<group>";
+		};
+		1B7E75A6191874A800E1B53A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B1E3CE9191FBE8B006A7364 /* Growl Registration Ticket.growlRegDict */,
+				1B7E75D919187BE100E1B53A /* .appicons */,
+				1B7E75A7191874A800E1B53A /* MOC-Bar-Info.plist */,
+				1B7E75A8191874A800E1B53A /* InfoPlist.strings */,
+				1B7E75AB191874A800E1B53A /* main.m */,
+				1B7E75AD191874A800E1B53A /* MOC-Bar-Prefix.pch */,
+				1B7E75AE191874A800E1B53A /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1B7E75C9191874A800E1B53A /* MOC-BarTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B7E75CF191874A800E1B53A /* MOC_BarTests.m */,
+				1B7E75CA191874A800E1B53A /* Supporting Files */,
+			);
+			path = "MOC-BarTests";
+			sourceTree = "<group>";
+		};
+		1B7E75CA191874A800E1B53A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B7E75CB191874A800E1B53A /* MOC-BarTests-Info.plist */,
+				1B7E75CC191874A800E1B53A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B7E759B191874A800E1B53A /* MOC-Bar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B7E75D3191874A800E1B53A /* Build configuration list for PBXNativeTarget "MOC-Bar" */;
+			buildPhases = (
+				1B7E7598191874A800E1B53A /* Sources */,
+				1B7E7599191874A800E1B53A /* Frameworks */,
+				1B7E759A191874A800E1B53A /* Resources */,
+				1B1E3CE7191FBD4E006A7364 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MOC-Bar";
+			productName = "MOC-Bar";
+			productReference = 1B7E759C191874A800E1B53A /* MOC-Bar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B7E75C2191874A800E1B53A /* MOC-BarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B7E75D6191874A800E1B53A /* Build configuration list for PBXNativeTarget "MOC-BarTests" */;
+			buildPhases = (
+				1B7E75BF191874A800E1B53A /* Sources */,
+				1B7E75C0191874A800E1B53A /* Frameworks */,
+				1B7E75C1191874A800E1B53A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B7E75C8191874A800E1B53A /* PBXTargetDependency */,
+			);
+			name = "MOC-BarTests";
+			productName = "MOC-BarTests";
+			productReference = 1B7E75C3191874A800E1B53A /* MOC-BarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B7E7594191874A700E1B53A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = r0r0;
+				TargetAttributes = {
+					1B7E75C2191874A800E1B53A = {
+						TestTargetID = 1B7E759B191874A800E1B53A;
+					};
+				};
+			};
+			buildConfigurationList = 1B7E7597191874A800E1B53A /* Build configuration list for PBXProject "MOC-Bar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B7E7593191874A700E1B53A;
+			productRefGroup = 1B7E759D191874A800E1B53A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B7E759B191874A800E1B53A /* MOC-Bar */,
+				1B7E75C2191874A800E1B53A /* MOC-BarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B7E759A191874A800E1B53A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B7E75BE191874A800E1B53A /* Images.xcassets in Resources */,
+				1B7E75DA19187BE100E1B53A /* .appicons in Resources */,
+				1B7E75AA191874A800E1B53A /* InfoPlist.strings in Resources */,
+				1B7E75DC19187BF100E1B53A /* Icon.icns in Resources */,
+				1B7E75B0191874A800E1B53A /* Credits.rtf in Resources */,
+				1B7E75B9191874A800E1B53A /* MainMenu.xib in Resources */,
+				1B1E3CEA191FBE8B006A7364 /* Growl Registration Ticket.growlRegDict in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B7E75C1191874A800E1B53A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B7E75CE191874A800E1B53A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B7E7598191874A800E1B53A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BD7FD3D19187FA3007AA562 /* AppDelegate.m in Sources */,
+				1B7E75AC191874A800E1B53A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B7E75BF191874A800E1B53A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B7E75D0191874A800E1B53A /* MOC_BarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B7E75C8191874A800E1B53A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B7E759B191874A800E1B53A /* MOC-Bar */;
+			targetProxy = 1B7E75C7191874A800E1B53A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B7E75A8191874A800E1B53A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B7E75A9191874A800E1B53A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1B7E75AE191874A800E1B53A /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B7E75AF191874A800E1B53A /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		1B7E75B7191874A800E1B53A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B7E75B8191874A800E1B53A /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		1B7E75CC191874A800E1B53A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B7E75CD191874A800E1B53A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B7E75D1191874A800E1B53A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1B7E75D2191874A800E1B53A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1B7E75D4191874A800E1B53A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MOC-Bar/MOC-Bar-Prefix.pch";
+				INFOPLIST_FILE = "MOC-Bar/MOC-Bar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1B7E75D5191874A800E1B53A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MOC-Bar/MOC-Bar-Prefix.pch";
+				INFOPLIST_FILE = "MOC-Bar/MOC-Bar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1B7E75D7191874A800E1B53A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MOC-Bar.app/Contents/MacOS/MOC-Bar";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MOC-Bar/MOC-Bar-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MOC-BarTests/MOC-BarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1B7E75D8191874A800E1B53A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MOC-Bar.app/Contents/MacOS/MOC-Bar";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MOC-Bar/MOC-Bar-Prefix.pch";
+				INFOPLIST_FILE = "MOC-BarTests/MOC-BarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B7E7597191874A800E1B53A /* Build configuration list for PBXProject "MOC-Bar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B7E75D1191874A800E1B53A /* Debug */,
+				1B7E75D2191874A800E1B53A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B7E75D3191874A800E1B53A /* Build configuration list for PBXNativeTarget "MOC-Bar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B7E75D4191874A800E1B53A /* Debug */,
+				1B7E75D5191874A800E1B53A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B7E75D6191874A800E1B53A /* Build configuration list for PBXNativeTarget "MOC-BarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B7E75D7191874A800E1B53A /* Debug */,
+				1B7E75D8191874A800E1B53A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B7E7594191874A700E1B53A /* Project object */;
+}
