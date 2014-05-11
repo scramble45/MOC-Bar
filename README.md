@@ -1,10 +1,4 @@
 MOC-Bar
-<<<<<<< HEAD
-=======
-
-OSX GUI for MOC
-=======
-=========
 
 OSX GUI for MOC
 
@@ -121,5 +115,3 @@ What License? - Do whatever you want.
 [MOC on OS X]:http://floss.zoomquiet.io/data/20140103161933/index.html
 [brew]:http://brew.sh
 [Twitter]:http://twitter.com/r0w
-
->>>>>>> 4a5a65160483199c5e6d51ddcb9f364b13db17ff
